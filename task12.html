@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./task12.css" rel="stylesheet" type="text/css">
+    <title>Task 12</title>
+    
+    
+</head>
+<body>
+    
+    <br>
+    <center>
+    <h1>Task 12</h1>
+    <div>
+    <form>
+            <table width="400"cellspacing="1" cellpadding="5">
+                
+                <tr>
+                    <td><label for = "name">Name: </label> </td>
+                    <td><input type="text" id = "name" name="name" placeholder="your Name" required width="200"></td>
+                </tr>
+
+                <tr>
+                    <td><label for ="mail">Email: </label></td>
+                    <td><input type="email" id = "mail" name="mail" placeholder="your Email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for = "pass">Password: </label></td>
+                    <td><input type="password" id = "pass" name="pass" maxlength="12"></td>
+                </tr>
+
+                <tr>
+                    <td><label for = "num">Phone Number: </label></td>
+                    <td><input type="number" id = "num" name="num" maxlength="10"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="gender">Gender: </label>
+                    </td>
+                    <td class="radio-group">
+                        <label>Male: </label>
+                        <input type="radio" name="gender" value="male"/>
+                        <label>Female: </label>
+                        <input type="radio" name="gender" value="female"/>
+                        <label>Other: </label>
+                        <input type="radio" name="gender" value="other"/>    
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><label>Language: </label></td>
+                    <td>
+                        <select>
+                            <option>Select Language</option>
+                            <option>English</option>
+                            <option>Hindi</option>
+                            <option>Marathi</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for = "zip">Zip Code: </label></td>
+                    <td><input type="number" id = "zip" name="zip" maxlength="6"></td>
+                </tr>
+    
+                <tr>
+                    <td><label>About: </label></td>
+                    <td><textarea placeholder="Write about yourself..."></textarea></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center"><input class="button" type="submit" value="Register"></td>
+                </tr>
+
+            </table>
+            <br>
+            
+            
+    </form>
+    </div>
+</center>
+    
+</body>
+</html>

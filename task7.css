@@ -1,0 +1,57 @@
+.vertical-navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: powderblue;
+}
+
+.vertical-navbar li{
+    text-indent: 10px;
+}
+
+.vertical-navbar li a{
+    text-align: left;
+    display: block;
+    height: 40px;
+    line-height: 40px; 
+    color: blue;
+    text-decoration: none;
+}
+
+.vertical-navbar a:hover{
+    background-color: orange;
+    color: white;
+}
+
+.horizontal-navbar{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    background-color: rgb(189, 202, 204);
+    overflow: hidden;
+}
+
+.horizontal-navbar li{
+    float: left;
+    border-right: 1px solid blue;
+}
+
+.horizontal-navbar li:last-child{
+    border-right: none;
+}
+
+.horizontal-navbar li a{
+    padding: 15px;
+    display: block;
+    height: 5px;
+    line-height: 7px;
+    color: blue;
+    text-decoration: none;
+}
+
+.horizontal-navbar a:hover{
+    background-color: rgb(83, 82, 81);
+    color: white;
+}
